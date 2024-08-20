@@ -1,3 +1,4 @@
+# CUSTOM 9FIN MODULE: registering of DocLayDataset
 # Copyright (c) OpenMMLab. All rights reserved.
 from .ade20k import (ADE20KInstanceDataset, ADE20KPanopticDataset,
                      ADE20KSegDataset)
@@ -12,6 +13,7 @@ from .coco_semantic import CocoSegDataset
 from .crowdhuman import CrowdHumanDataset
 from .dataset_wrappers import ConcatDataset, MultiImageMixDataset
 from .deepfashion import DeepFashionDataset
+from .doc_layout_dataset import DocLayDataset
 from .dod import DODDataset
 from .dsdl import DSDLDetDataset
 from .flickr30k import Flickr30kDataset
@@ -49,5 +51,5 @@ __all__ = [
     'BaseSegDataset', 'ADE20KSegDataset', 'CocoSegDataset',
     'ADE20KInstanceDataset', 'iSAIDDataset', 'V3DetDataset', 'ConcatDataset',
     'ODVGDataset', 'MDETRStyleRefCocoDataset', 'DODDataset',
-    'CustomSampleSizeSampler', 'Flickr30kDataset'
+    'CustomSampleSizeSampler', 'Flickr30kDataset', 'DocLayDataset'
 ]
